@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0081/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0081/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 皇極經世書
+  date: '2015-08-29 17:58:46.317044'
+  source:
+    repository: kanripo
+    path: KR5i0081
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0081_001-YP-C.yaml, hash: 'sha256:12fc60b532c1b5d32ffe863485a1e9c266b4a45018b1ae561212ff9693a86801'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0081_001-YP-C.markers.yaml, hash: 'sha256:374aef113b8fa917c790f988b11ff1897e9ce263fcbe7a6be424fe64c9b26dce'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0081_25xingji-07-0060b
+    span:
+    - body
+    - 0
+    - 8877
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:93c16b531baccea4413c34645096c6df32c8c4d18e0c881bf57152a4cfa8ee97
